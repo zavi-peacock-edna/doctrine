@@ -1,0 +1,99 @@
+{
+  "schema": "rotary/1",
+  "zavijava": "00.02",
+  "what": "The org-wide index of every surface. PUBLIC, so any repo can read it — a repo-scoped token cannot read a private one. This is the thing that gets passed around.",
+  "rule": "A spoke is a door, not a second of capacity. Every spoke carries the argument for its own name, because a name that cannot argue does not get a door.",
+  "single_source": "There is no second copy of this file. CI sweeps FROM here. If a route is not in this list it does not exist.",
+
+  "spokes": [
+    { "path": "doctrine",                 "name": "Horos",    "lane": "record",
+      "argument": "the boundary stone. The index names itself, and the estate reads from it",
+      "url": "https://github.com/zavi-peacock-edna/doctrine" },
+
+    { "path": "delta-blues-hotline",      "name": "Lethe",    "lane": "draft",
+      "argument": "forgetting, permitted. Nothing here binds and removal is free — the only room where being wrong is free",
+      "url": "https://github.com/zavi-peacock-edna/delta-blues-hotline" },
+
+    { "path": "delta-blues-crossroads",   "name": "Ananke",   "lane": "decide",
+      "argument": "necessity. Four fields or no crossing. Highway 61 and 49 — where a thing becomes irreversible",
+      "url": "https://github.com/zavi-peacock-edna/delta-blues-crossroads" },
+
+    { "path": ".github",                  "name": "Hestia",   "lane": "command",
+      "argument": "the hearth. The private annex: PROFILE, POLITY, CIVICS, ESCALATION. Never leaves the house",
+      "url": "https://github.com/zavi-peacock-edna/.github" },
+
+    { "path": "legatus",                  "name": "Kophinos", "lane": "bench",
+      "argument": "the basket. The corps, the curia, the coin of each legate, and the astrometry",
+      "url": "https://github.com/zavi-peacock-edna/legatus" },
+
+    { "path": "zawiya",                   "name": "Hermeneus","lane": "glossary",
+      "argument": "the interpreter. 88 handles reduced to root, every uncertainty declared",
+      "url": "https://github.com/zavi-peacock-edna/zawiya" },
+
+    { "path": "slime",                    "name": "Kopros",   "lane": "residue",
+      "argument": "what is carried. Failed conflict arrest: the bucket, the token, the ten cases",
+      "url": "https://github.com/zavi-peacock-edna/slime" },
+
+    { "path": "agora",                    "name": "Krisis",   "lane": "assessment",
+      "argument": "the judging. Ten checks, three of them disqualifying, and one assessment already REFUSED",
+      "url": "https://github.com/zavi-peacock-edna/agora" },
+
+    { "path": "apache-suite",             "name": "Tekton",   "lane": "build",
+      "argument": "the builder. Staged for review — Jena recommended, Camel deferred, three components refused with reasons",
+      "url": "https://github.com/zavi-peacock-edna/apache-suite" },
+
+    { "path": "a-rationibus",   "name": "Metron",   "lane": "measure",
+      "argument": "the measure. Counts, manifests, coverage. Must not hold EXECUTE",
+      "url": "https://github.com/zavi-peacock-edna/a-rationibus" },
+    { "path": "a-cognitionibus","name": "Elenchos", "lane": "verify",
+      "argument": "the cross-examination. Neighbour's raisings only. Must not hold RAISE",
+      "url": "https://github.com/zavi-peacock-edna/a-cognitionibus" },
+    { "path": "a-memoria",      "name": "Mnema",    "lane": "record",
+      "argument": "the memorial. Append-only, convenes the meeting, holds no price. Must not hold DELETE",
+      "url": "https://github.com/zavi-peacock-edna/a-memoria" },
+    { "path": "ab-epistulis",   "name": "Iris",     "lane": "publish",
+      "argument": "the rainbow. Carries between and never stays. Must not publish anything about a person",
+      "url": "https://github.com/zavi-peacock-edna/ab-epistulis" },
+    { "path": "a-libellis",     "name": "Fides",    "lane": "petition",
+      "argument": "good faith. Holds the treaty, does not sign it. Must not hold ACCEPTANCE",
+      "url": "https://github.com/zavi-peacock-edna/a-libellis" },
+    { "path": "a-studiis",      "name": "Minerva",  "lane": "sources",
+      "argument": "without envy. Grades, declines, downgrades freely — and may never upgrade without going and looking",
+      "url": "https://github.com/zavi-peacock-edna/a-studiis" }
+  ],
+
+  "route": {
+    "of_an_addition": ["delta-blues-hotline", "delta-blues-crossroads", "doctrine", "the fan-in repos"],
+    "of_a_removal":   ["doctrine"],
+    "why": "An addition costs an argument. A removal costs nothing, and skips both rooms. A gate on deletion is a gate that guarantees growth."
+  },
+
+  "reach": {
+    "fan_in_installed": 11,
+    "eligible_unseeded": 69,
+    "mechanism": "each repo PULLS from doctrine on its own token. Nothing holds org-wide write.",
+    "note": "The push-based broadcast exists and cannot run: BROADCAST_TOKEN is unset and the default token cannot enumerate the org."
+  },
+
+  "arithmetic": {
+    "spokes": 15,
+    "province": 50000000,
+    "factorisation": "2^7 x 5^8",
+    "token": 100,
+    "tokens": 500000,
+    "per_spoke": 33333,
+    "strand": 5,
+    "gcd_spokes_tokens": 5,
+    "note": "15 = 3 x 5. The province has no factor of 3, so 3 is unpayable from it and 5 strand. Reported, never distributed. At 24 spokes the remainder was 8.",
+    "throughput": "A spoke is a door, not a second of capacity. One container at 500 req/s serves 50,000,000 once in 27.8 hours, and adding spokes does not change that."
+  },
+
+  "not_in_the_rotary": {
+    "reason": "Named rather than implied. P-5.",
+    "items": [
+      "135 repos with no lane — 36 forks, 35 reporting size:0 and unchecked, the rest unopened",
+      "grease — the pass-through rate is 66% and no spoke measures it",
+      "the amendment procedure — POLITY.md II. Does not exist"
+    ]
+  }
+}
